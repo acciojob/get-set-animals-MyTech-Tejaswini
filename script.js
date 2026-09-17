@@ -4,12 +4,13 @@ class Animal {
 		this.species=species
 	}
 
-	// Getter
+	// getter
 
-	getAnimal(species){
+	get species() {
 		return this.species
 	}
 
+	// method
 	makeSound(){
 		console.log(`The ${this.species} makes a sound`)
 	}
