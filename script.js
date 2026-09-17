@@ -6,24 +6,24 @@ class Animal {
 
 	// Getter
 
-	getAnimal(){
+	getAnimal(species){
 		return this.species
 	}
 
 	makeSound(){
-		console.log(`The ${species} makes a sound`)
+		console.log(`The ${this.species} makes a sound`)
 	}
 }
 
 class Dog extends Animal {
-	purr(){
-		console.log("purr")
+	bark(){
+		console.log("woof")
 	}
 }
 
 class Cat extends Animal {
-	bark(){
-		console.log("woof")
+	purr(){
+		console.log("purr")
 	}
 }
 
